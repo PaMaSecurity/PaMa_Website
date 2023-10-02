@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <title>PaMa</title>
-        <link rel="icon" type="image/x-icon" href="icon.png">
+        <link rel="icon" type="image/x-icon" href="icon-colour.svg">
         <meta charset="utf-8">
     </head>
     <body>
