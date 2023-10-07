@@ -34,6 +34,12 @@ body {
     fill: #0011F0;
 }
 
+.credits {
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+}
+
 
 @media only screen and (min-width: 1500px) {
     body {
@@ -111,7 +117,6 @@ body {
         height: .9em;
     }
 }
-
 
 
 @media only screen and (max-width: 870px) {
