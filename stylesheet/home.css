@@ -34,6 +34,14 @@ body {
     fill: #0011F0;
 }
 
+.credit {
+    color: black;
+    position: fixed;
+    font-size: 1.2em;
+    bottom: 2em;
+    right: 2em;
+}
+
 
 @media only screen and (min-width: 1500px) {
     body {
@@ -70,14 +78,6 @@ body {
     .linkbox .link .external-link-logo {
         width: .9em;
         height: .9em;
-    }
-
-    .credits {
-        color: black;
-        position: fixed;
-        font-size: 1.2em;
-        bottom: 2vh;
-        right: 2vh;
     }
 }
 
@@ -118,14 +118,6 @@ body {
         width: .9em;
         height: .9em;
     }
-
-    .credits {
-        color: black;
-        position: fixed;
-        font-size: 1.2em;
-        bottom: 2vh;
-        right: 2vh;
-    }
 }
 
 
@@ -165,13 +157,5 @@ body {
     .linkbox .link .external-link-logo {
         width: .9em;
         height: .9em;
-    }
-
-    .credits {
-        color: black;
-        position: fixed;
-        font-size: 1.2em;
-        bottom: 2vh;
-        right: 2vh;
     }
 }
