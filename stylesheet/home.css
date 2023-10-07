@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-body {
+    display: block;
+    text-align: center;
+}
+
+.linkbox {
+    display: flexbox;
+    position: relative;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.linkbox .item {
+    text-align: left;
+}
+
+.linkbox .logo {
+    vertical-align: middle;
+}
+
+.linkbox .link {
+    text-decoration: underline;
+    color: #0011F0;
+}
+
+.linkbox .link .external-link-logo {
+    padding: 0;
+    vertical-align: middle;
+    fill: #0011F0;
+}
+
+
+@media only screen and (min-width: 1500px) {
+    body {
+        word-wrap: break-word;
+        word-break: keep-all;
+    }
+
+    .main-body {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+    
+    .title {
+        font-size: 3.7em;
+        padding-top: .2em;
+        padding-bottom: 1.5em;
+    }
+    
+    .linkbox .item {
+        height: 3.5em;
+    }
+    
+    .linkbox .logo {
+        width: 2em;
+        height: 2em;    
+        padding-right: .5em;
+    }
+    
+    .linkbox .link {
+        text-decoration-thickness: .05em;
+        font-size: 2em;
+    }
+
+    .linkbox .link .external-link-logo {
+        width: .9em;
+        height: .9em;
+    }
+}
+
+
+@media only screen and (min-width: 870px) and (max-width: 1500px) {
+    body {
+        word-wrap: break-word;
+        word-break: keep-all;
+    }
+
+    .main-body {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    
+    .title {
+        font-size: 3em;
+        padding-top: .2em;
+        padding-bottom: 1.5em;
+    }
+    
+    .linkbox .item {
+        height: 3.5em;
+    }
+    
+    .linkbox .logo {
+        width: 2em;
+        height: 2em;    
+        padding-right: .5em;
+    }
+    
+    .linkbox .link {
+        text-decoration-thickness: .05em;
+        font-size: 2em;
+    }
+
+    .linkbox .link .external-link-logo {
+        width: .9em;
+        height: .9em;
+    }
+}
+
+
+
+@media only screen and (max-width: 870px) {
+    body {
+        word-wrap: normal;
+        word-break: keep-all;
+    }
+
+    .main-body {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+    
+    .title {
+        font-size: 2.3em;
+        padding-top: .2em;
+        padding-bottom: 1.5em;
+    }
+    
+    .linkbox .item {
+        height: 2.8em;
+    }
+    
+    .linkbox .logo {
+        width: 1.7em;
+        height: 1.7em;
+        padding-right: .3em;
+    }
+    
+    .linkbox .link {
+        text-decoration-thickness: .05em;
+        font-size: 1.7em;   
+    }
+
+    .linkbox .link .external-link-logo {
+        width: .9em;
+        height: .9em;
+    }
+}
