@@ -35,6 +35,7 @@ body {
 }
 
 .credit {
+    color: black;
     position: fixed;
     font-size: 1.2em;
     bottom: 2vh;
