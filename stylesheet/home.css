@@ -34,6 +34,13 @@ body {
     fill: #0011F0;
 }
 
+.credit {
+    position: fixed;
+    font-size: 1.2em;
+    bottom: 2vh;
+    right: 2vh;
+}
+
 
 @media only screen and (min-width: 1500px) {
     body {
