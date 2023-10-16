@@ -156,3 +156,35 @@ body {
         height: .9em;
     }
 }
+
+.link-div {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 2vw;
+    transition: transform 0.2s;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.link-div:hover{
+    transform: scale(1.2)
+}
+
+.link-div img {
+    width: 150px
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+    width: 50%;
+    margin: 0 auto;
+}
